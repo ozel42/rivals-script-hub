@@ -1,0 +1,20 @@
+[aimbot]
+enabled = true
+fov_px = 180
+smoothing = 0.35
+bone = "head"
+
+[triggerbot]
+enabled = true
+fire_delay_ms = 90
+hitbox = "torso"
+
+[noclip]
+enabled = false
+restore_on_disable = true
+
+[esp]
+enabled = true
+names = true
+head_dot = true
+tracers = false
