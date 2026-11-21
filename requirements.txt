@@ -1,0 +1,12 @@
+# RIVALS Script Hub - Python runtime deps
+pywin32>=306
+pymem>=1.13.0
+pyautogui>=0.9.54
+numpy>=1.26.0
+pygame>=2.5.2
+keyboard>=0.13.5
+mouse>=0.7.1
+requests>=2.31.0
+colorama>=0.4.6
+pydantic>=2.6.0
+loguru>=0.7.2
