@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0e14"/>
+  
+  <!-- Circuit trace background paths -->
+  <path d="M20 128 L60 128 L60 80 L90 80" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M236 128 L196 128 L196 176 L166 176" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M128 20 L128 60 L90 60" stroke="#ff3b3b" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M128 236 L128 196 L166 196" stroke="#ff3b3b" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Circuit nodes -->
+  <circle cx="60" cy="80" r="4" fill="#39ff14" opacity="0.6"/>
+  <circle cx="196" cy="176" r="4" fill="#39ff14" opacity="0.6"/>
+  <circle cx="90" cy="60" r="3" fill="#ff3b3b" opacity="0.6"/>
+  <circle cx="166" cy="196" r="3" fill="#ff3b3b" opacity="0.6"/>
+  
+  <!-- Cracked crosshair reticle - outer ring -->
+  <circle cx="128" cy="128" r="72" stroke="#e6edf3" stroke-width="3" fill="none"/>
+  
+  <!-- Crosshair lines with cracks/gaps -->
+  <line x1="128" y1="40" x2="128" y2="68" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="128" y1="78" x2="128" y2="98" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="128" y1="158" x2="128" y2="178" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="128" y1="188" x2="128" y2="216" stroke="#e6edf3" stroke-width="3"/>
+  
+  <line x1="40" y1="128" x2="68" y2="128" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="78" y1="128" x2="98" y2="128" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="158" y1="128" x2="178" y2="128" stroke="#e6edf3" stroke-width="3"/>
+  <line x1="188" y1="128" x2="216" y2="128" stroke="#e6edf3" stroke-width="3"/>
+  
+  <!-- Cracked segments - diagonal fracture lines breaking the reticle -->
+  <path d="M72 72 L95 95 L88 108 L105 118" stroke="#ff3b3b" stroke-width="2.5" fill="none"/>
+  <path d="M184 184 L161 161 L168 148 L151 138" stroke="#ff3b3b" stroke-width="2.5" fill="none"/>
+  
+  <!-- Crack extensions through ring -->
+  <path d="M95 95 L78 82" stroke="#ff3b3b" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M161 161 L178 174" stroke="#ff3b3b" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Inner targeting reticle - offset composition -->
+  <circle cx="128" cy="128" r="32" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.9"/>
+  
+  <!-- Inner crosshair neon segments -->
+  <line x1="128" y1="100" x2="128" y2="112" stroke="#39ff14" stroke-width="2.5"/>
+  <line x1="128" y1="144" x2="128" y2="156" stroke="#39ff14" stroke-width="2.5"/>
+  <line x1="100" y1="128" x2="112" y2="128" stroke="#39ff14" stroke-width="2.5"/>
+  <line x1="144" y1="128" x2="156" y2="128" stroke="#39ff14" stroke-width="2.5"/>
+  
+  <!-- Center dot with glow effect -->
+  <circle cx="128" cy="128" r="5" fill="#ff3b3b"/>
+  <circle cx="128" cy="128" r="2" fill="#e6edf3"/>
+  
+  <!-- Circuit trace fused with reticle - flowing lines from center -->
+  <path d="M128 60 L128 40 L140 28" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M128 196 L128 216 L116 228" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M60 128 L40 128 L28 116" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M196 128 L216 128 L228 140" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.7"/>
+  
+  <!-- Additional circuit traces branching from crosshair -->
+  <path d="M98 98 L85 85 L85 70" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M158 158 L171 171 L171 186" stroke="#39ff14" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Small circuit junction dots -->
+  <circle cx="140" cy="28" r="2.5" fill="#39ff14" opacity="0.8"/>
+  <circle cx="116" cy="228" r="2.5" fill="#39ff14" opacity="0.8"/>
+  <circle cx="28" cy="116" r="2.5" fill="#39ff14" opacity="0.8"/>
+  <circle cx="228" cy="140" r="2.5" fill="#39ff14" opacity="0.8"/>
+  
+  <!-- Corner industrial accents - asymmetric -->
+  <path d="M16 16 L16 40 M16 16 L40 16" stroke="#ff3b3b" stroke-width="2" opacity="0.6"/>
+  <path d="M240 240 L240 216 M240 240 L216 240" stroke="#ff3b3b" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Small phosphor dots scattered - nighttime feel -->
+  <circle cx="45" cy="45" r="1.5" fill="#39ff14" opacity="0.4"/>
+  <circle cx="210" cy="45" r="1.5" fill="#39ff14" opacity="0.4"/>
+  <circle cx="45" cy="210" r="1.5" fill="#39ff14" opacity="0.4"/>
+  <circle cx="210" cy="210" r="1.5" fill="#39ff14" opacity="0.4"/>
+  
+  <!-- Subtle scan lines effect using thin paths -->
+  <path d="M0 64 L256 64" stroke="#e6edf3" stroke-width="0.5" opacity="0.04"/>
+  <path d="M0 128 L256 128" stroke="#e6edf3" stroke-width="0.5" opacity="0.04"/>
+  <path d="M0 192 L256 192" stroke="#e6edf3" stroke-width="0.5" opacity="0.04"/>
+</svg>
